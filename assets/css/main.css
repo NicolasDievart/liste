@@ -1,0 +1,49 @@
+body {
+  background-color: #bea68e;
+}
+
+@font-face {
+  font-family: weedingName;
+  src: url('../font/andellia-davilton.otf');
+}
+
+.weeding-name {
+  font-family: 'weedingName';
+  font-size: 6em;
+  z-index: 50;
+}
+
+.liste-link {
+  font-size: 3em;
+  text-decoration: none;
+  color: black;
+}
+
+.liste-link:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.weeding-intro {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 30vh;
+  font-family: 'weedingName';
+  z-index: 50;
+}
+
+.forme-orange {
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  height: 85vh;
+  z-index: 1;
+}
+
+.forme-blanche {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  height: 85vh;
+  z-index: 1;
+}
